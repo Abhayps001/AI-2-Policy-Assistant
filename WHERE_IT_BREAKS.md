@@ -1,0 +1,5 @@
+# Where it breaks
+
+1. **“Will this UPI payment arrive on Monday after a Sunday or bank holiday?”** The policy says T+1 is the next working day, but the data does not include a holiday calendar. The assistant reports the rule and cannot reliably calculate the date.
+2. **“I closed my account yesterday; exactly when will the payout arrive?”** The policy gives a maximum of 10 working days after deductions, but “yesterday” needs a reference date and the exact calculation needs a holiday calendar. The assistant intentionally gives only the policy window.
+3. **“Can this particular merchant accept Rs. 1,80,000?”** The special limit depends on merchant category and enhanced KYC (Annexure C), but Annexure C and customer-specific KYC/account limits are not supplied. The prototype can state the documented condition, but cannot verify a real merchant's eligibility.

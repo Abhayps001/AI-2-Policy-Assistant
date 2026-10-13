@@ -1,0 +1,119 @@
+[
+  {
+    "id": "E01",
+    "question": "When does a small merchant receive UPI money?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "T+1",
+    "expected_citations": ["circular_2026_08_amendment.md, clause A"],
+    "expected_status": "CONFLICT_RESOLVED"
+  },
+  {
+    "id": "E02",
+    "question": "When will UPI settle with the Instant Settlement add-on?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "11:59 PM",
+    "expected_citations": ["circular_2026_08_amendment.md, clause A"],
+    "expected_status": "CONFLICT_RESOLVED"
+  },
+  {
+    "id": "E03",
+    "question": "A large merchant above Rs.10 lakh receives a Rs.4,000 UPI payment. What MDR and GST do they pay?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "Rs. 23.60",
+    "expected_citations": ["policy_master_v1.md, clause 2.2", "policy_master_v1.md, clause 2.4", "circular_2026_08_amendment.md, clause C"],
+    "expected_status": "CONFLICT_RESOLVED"
+  },
+  {
+    "id": "E04",
+    "question": "Same large merchant, a Rs.1,50,000 payment. What do they pay?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "MDR charged is Rs. 25.00",
+    "expected_citations": ["circular_2026_08_amendment.md, clause C"],
+    "expected_status": "CONFLICT_RESOLVED"
+  },
+  {
+    "id": "E05",
+    "question": "I refund the transaction 3 hours later. Do I get the MDR back?",
+    "as_of_date": "2026-08-20",
+    "expected_answer": "MDR is reversed in full",
+    "expected_citations": ["policy_master_v1.md, clause 3.3"],
+    "expected_status": "ANSWERED"
+  },
+  {
+    "id": "E06",
+    "question": "I refund the transaction 3 hours later. Do I get the MDR back?",
+    "as_of_date": "2026-09-05",
+    "expected_answer": "former within-24-hours exception was deleted",
+    "expected_citations": ["circular_2026_08_amendment.md, clause D"],
+    "expected_status": "CONFLICT_RESOLVED"
+  },
+  {
+    "id": "E07",
+    "question": "What does the FAQ say about the MDR cap, and is it right?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "FAQ says there is no upper limit",
+    "expected_citations": ["merchant_faq_2026-03.md, heading 'What do I pay on a UPI transaction?'", "circular_2026_08_amendment.md, clause C"],
+    "expected_status": "CONFLICT_RESOLVED",
+    "adversarial": true
+  },
+  {
+    "id": "E08",
+    "question": "Can a customer pay Rs.1,00,000 twice in one day to a merchant?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "No, not under the standard daily limit",
+    "expected_citations": ["policy_master_v1.md, clause 4.3", "circular_2026_08_amendment.md, clause E"],
+    "expected_status": "ANSWERED"
+  },
+  {
+    "id": "E09",
+    "question": "I closed my account yesterday. When will I get my money?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "within 10 working days",
+    "expected_citations": ["policy_master_v1.md, clause 5.2"],
+    "expected_status": "ANSWERED"
+  },
+  {
+    "id": "E10",
+    "question": "Does the policy allow me to settle card payments same day?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "T+2",
+    "expected_citations": ["policy_master_v1.md, clause 1.2"],
+    "expected_status": "ANSWERED"
+  },
+  {
+    "id": "E11",
+    "question": "What MDR and GST do I pay on a Rs.4,000 transaction?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "monthly merchant volume is needed",
+    "expected_citations": [],
+    "expected_status": "CANNOT_ANSWER",
+    "adversarial": true
+  },
+  {
+    "id": "E12",
+    "question": "What is the exact bank-holiday calendar used to calculate T+1 settlement dates?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "outside the supported policy topics",
+    "expected_citations": [],
+    "expected_status": "CANNOT_ANSWER",
+    "adversarial": true
+  },
+  {
+    "id": "E13",
+    "question": "Does clause 3.4 say merchants can raise chargebacks within 120 days?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "customer's bank must raise",
+    "expected_citations": ["policy_master_v1.md, clause 3.4"],
+    "expected_status": "ANSWERED",
+    "adversarial": true
+  },
+  {
+    "id": "E14",
+    "question": "Can an Insurance merchant accept Rs.1,80,000 without enhanced KYC?",
+    "as_of_date": "2026-08-15",
+    "expected_answer": "only after completing enhanced KYC",
+    "expected_citations": ["policy_master_v1.md, clause 4.4"],
+    "expected_status": "ANSWERED",
+    "adversarial": true
+  }
+]
